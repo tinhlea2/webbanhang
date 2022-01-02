@@ -690,6 +690,10 @@ ul.sub-menu {
     color: #999;
 }
 
+.level-pin .brands-name ul li a:hover {
+    color: #999;
+}
+
 .left-sidebar h2:after,
 h2.title:after {
     content: " ";
