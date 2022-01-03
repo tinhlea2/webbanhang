@@ -1452,8 +1452,8 @@ h2.title {
 
 #form {
     display: block;
-    margin-bottom: 185px;
-    margin-top: 185px;
+    margin-bottom: 150px;
+    margin-top: 150px;
     overflow: hidden;
 }
 
@@ -1468,6 +1468,13 @@ h2.title {
     font-size: 25px;
     font-weight: 300;
     margin-bottom: 30px;
+    margin-left: 25%;
+}
+
+.login-form h5 {
+    color: #318fdb;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 26%;
 }
 
 .login-form form input,
@@ -1484,6 +1491,15 @@ h2.title {
     outline: medium none;
     padding-left: 10px;
     width: 100%;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.login-form form input:focus,
+.signup-form form input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
 }
 
 .login-form form span {
@@ -1497,8 +1513,10 @@ h2.title {
     margin-right: 5px;
 }
 
+.signup-form form button,
 .login-form form button {
     margin-top: 23px;
+    margin-left: 25%;
 }
 
 .login-form form button,
@@ -1510,6 +1528,8 @@ h2.title {
     display: block;
     font-family: 'Roboto', sans-serif;
     padding: 6px 25px;
+    border: 2px solid #ebe212;
+    border-radius: 7px
 }
 
 .login-form label {}
