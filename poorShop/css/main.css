@@ -1681,21 +1681,25 @@ h2.title {
     font-family: 'Roboto', sans-serif;
 }
 
-.cart_delete {
+.cart_choose {
     display: block;
     margin-right: -12px;
     overflow: hidden;
 }
 
-.cart_delete a {
-    background: #F0F0E9;
+.cart_choose a {
+    background: #FFFFFF;
     color: #FFFFFF;
     padding: 5px 7px;
     font-size: 16px
 }
 
-.cart_delete a:hover {
-    background: #FE980F
+.cart_choose .cart_quantity_choose input {
+    height: 24px;
+}
+
+.cart_choose a:hover {
+    background: #FFFFFF
 }
 
 .bg h2.title {
@@ -1722,7 +1726,6 @@ h2.title {
 
 #do_action .total_area,
 #do_action .chose_area {
-    border: 1px solid #E6E4DF;
     color: #696763;
     padding: 30px 25px 30px 0;
     margin-bottom: 80px;
@@ -1730,6 +1733,7 @@ h2.title {
 
 .total_area span {
     float: right;
+    color: #fe980f;
 }
 
 .total_area ul li {
@@ -1800,7 +1804,7 @@ textarea {
     background: #FE980F;
     border-radius: 0;
     color: #FFFFFF;
-    margin-top: 18px;
+    margin-top: 12px;
     border: none;
     padding: 5px 15px;
 }
