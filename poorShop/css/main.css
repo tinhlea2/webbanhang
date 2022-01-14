@@ -278,7 +278,7 @@ a#scrollUp i {
 .search_box input {
     background: #F0F0E9;
     border: medium none;
-    color: #B2B2B2;
+    color: #000;
     font-family: 'roboto';
     font-size: 12px;
     height: 35px;
@@ -1201,6 +1201,25 @@ h2.title {
     margin-top: 10px;
 }
 
+tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.tab-pane tr::nth-child(odd) {
+    background-color: #f3f4f7;
+}
+
+.tab-pane td {
+    border: 1px solid #dee2e6;
+    padding: 6px 10px;
+}
+
 .view-product {
     position: relative;
 }
@@ -1395,7 +1414,7 @@ h2.title {
 #reviews textarea {
     background: #F0F0E9;
     border: medium none;
-    color: #A6A6A1;
+    color: #000;
     height: 195px;
     margin-bottom: 25px;
     margin-top: 15px;
@@ -1481,7 +1500,7 @@ h2.title {
 .signup-form form input {
     background: #F0F0E9;
     border: medium none;
-    color: #696763;
+    color: #000;
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
